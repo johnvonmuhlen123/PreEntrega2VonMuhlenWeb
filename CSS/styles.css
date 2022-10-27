@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+}
+
+.navbar
+{
+    background-color: #f7a9e3;
+}
+
+.logoImg{
+    width: 9.375rem;
+}
+
+.titleSection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bigLogo
+{
+    width: 50%;
+}
+
+.titleDescription
+{
+    padding: 15px;
+    text-align: center;
+}
+
+.titleButton
+{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.videoSection
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+iframe
+{
+    padding: 25px;
+}
+
+.videoDes
+{
+    width: 50%;
+    padding: 25px;
+}
+
+.titleSection.acerca
+{
+    padding: 20px;
+}
+
+.videoSection.acerca
+{
+    padding: 40px;
+    background-color: lightgray;
+    margin: 30px;
+    position:static;
+}
+.contactoBody
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.icons
+{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons.footer i
+{
+    font-size: 25px;
+    padding: 10px;
+}
+
+i
+{
+    padding: 20px;
+    font-size: 35px;
+}
+
+.form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3ed01;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.videoSection.catalogo
+{
+    background-color: lightgray;
+}
+
+.productos
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoriaImagenes img
+{
+    width: 20%;
+}
+
+.categoriaTitulo
+{
+    padding: 20px;
+}
+
+.products
+{
+    background-color: lightgray;
+}
+
+.enviosBody
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+footer
+{
+    background-color: rgb(238, 238, 238);
+    margin-top: 108px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#acercaImg
+{
+    width: 500px;
+    padding: 25px;
+}
+
+@media screen and (max-width:500px) {
+    #acercaImg
+    {
+        width:400px;
+    }
+}
+
+.header
+{
+    font-size: 50px;
+    font-weight: bold;
+    color:#f3ed01;
+    padding: 25px;
+}
+
+.carousel {
+    width:520px;
+    padding: 30px;
+}
